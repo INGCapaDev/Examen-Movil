@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RectanguloActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/lblNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="32dp"
+            android:textSize="20sp"
+            android:text="@string/app_name"
+            />
+
+        <TextView
+            android:id="@+id/lblBase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="16dp"
+            android:textSize="20sp"
+            android:text="@string/strBase"/>
+
+        <EditText
+            android:id="@+id/txtBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/strBase"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:autofillHints=""/>
+
+        <TextView
+            android:id="@+id/lblAltura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            android:text="@string/strAltura"/>
+
+        <EditText
+            android:id="@+id/txtAltura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/strAltura"
+            android:layout_marginBottom="32dp"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:autofillHints=""/>
+
+        <TextView
+            android:id="@+id/lblArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp"
+            android:textSize="20sp"
+            android:text="@string/strArea"/>
+
+        <TextView
+            android:id="@+id/lblPerimetro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:textSize="20sp"
+            android:text="@string/strPerimetro"/>
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/strCalcular"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/strRegresar"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/strLimpiar"
+            android:textSize="18sp"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
