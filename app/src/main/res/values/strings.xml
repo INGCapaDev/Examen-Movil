@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">ExamenC1</string>
+    <string name="strNombre">Escribe tu nombre</string>
+    <string name="strEntrar">Entrar</string>
+    <string name="strSalir">Salir</string>
+    <string name="strBase">Base</string>
+    <string name="strAltura">Altura</string>
+    <string name="strArea">Area</string>
+    <string name="strPerimetro">Perimetro</string>
+    <string name="strCalcular">Calcular</string>
+    <string name="strRegresar">Regresar</string>
+    <string name="strLimpiar">Limpiar</string>
 </resources>
